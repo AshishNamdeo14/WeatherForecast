@@ -1,0 +1,19 @@
+<!-- 
+   <div  >  
+    {{convertToDate(weatherResult.dt) |  date: 'MMM d ,y'}}
+        Daytime Temperature : {{ convertToFer(weatherResult.main.temp) }}
+    </div> -->
+
+<weather-app convert-to-fernate="convertToFer(daytime)" weather-day="weatherResult" convert-to-dates="convertToDate(datee)" date-formate="MMM d,y"></weather-app>
+    <!-- <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{dt}}</h3>
+                </div>
+                <div class="panel-body">
+                   Daytime Temperature : {{w.temp}}
+                </div>
+            <div>
+        </div>
+    </div> -->

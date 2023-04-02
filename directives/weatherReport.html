@@ -1,0 +1,4 @@
+<div  >  
+        Hello {{ convertToDates({datee: weatherDay.dt}) | date: dateformate }}
+        Daytime Temperature : {{ convertToFernate( { daytime: weatherDay.main.temp}  ) }}
+    </div>
